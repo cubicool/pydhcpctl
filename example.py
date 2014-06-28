@@ -8,6 +8,8 @@ import dhcpctl
 
 def generate_leases(server, port, subnet, start, end, ping):
     with contextlib.closing(dhcpctl.Connection(server, port)) as dhcp:
+        print("IN")
+
         for i in range(start, end):
             ip, ttl, name = dhcp.get_lease("%s.%d" % (subnet, i))
 

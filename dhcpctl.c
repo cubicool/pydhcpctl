@@ -1,5 +1,4 @@
 #include <Python.h>
-#include "structmember.h"
 #include <dhcpctl/dhcpctl.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -164,7 +163,7 @@ static PyMethodDef connection_object_methods[] = {
 
 static PyTypeObject connection_type = {
 	PyVarObject_HEAD_INIT(NULL, 0)
-	"lease.Connection", /* tp_name */
+	"Connection", /* tp_name */
 	sizeof(connection_object), /* tp_basicsize */
 	0, /* tp_itemsize */
 	0, /* tp_dealloc */
