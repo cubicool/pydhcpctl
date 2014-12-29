@@ -10,5 +10,5 @@ Example
 =======
 
 .. include:: example.py
+   :code: python
    :literal:
-   :code: python3
