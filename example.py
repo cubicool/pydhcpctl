@@ -22,8 +22,8 @@ def generate_leases(server, port, subnet, start, end, ping):
 
             if not status:
                 diff = int(time.time()) - ttl
-                hours = int((diff / 60) / 60)
-                mins = int((diff / 60) % 60)
+                hours = (diff // 60) // 60
+                mins = (diff // 60) % 60
 
                 yield "ip=%s, uptime=(%dh, %dm), name=%s" % (
                     ip,
