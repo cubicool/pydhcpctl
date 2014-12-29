@@ -1,3 +1,5 @@
+.. _see an example: https://github.com/cubicool/pydhcpctl/blob/master/example.py
+
 pydhcpctl
 =========
 
@@ -9,6 +11,5 @@ distro's appropriate dhcp-server development headers/package.
 Example
 =======
 
-.. include:: example.py
-   :code: python
-   :literal:
+Github doesn't allow the "include" RST directive (for sensible security reasons),
+so you will have to click on this link to `see an example` of using phdhcpctl.
