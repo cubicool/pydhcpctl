@@ -12,4 +12,4 @@ Example
 =======
 
 Github doesn't allow the "include" RST directive (for sensible security reasons),
-so you will have to click on this link to `see an example` of using phdhcpctl.
+so you will have to click on this link to `see an example`_ of using phdhcpctl.
